@@ -1,0 +1,4 @@
+qBitBanner.exe
+*.json
+*.py
+pkg/
