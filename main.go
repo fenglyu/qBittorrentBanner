@@ -182,7 +182,7 @@ type Torrents struct {
 	AddedOn           int     `json:"added_on"`
 	AmountLeft        int     `json:"amount_left"`
 	AutoTmm           bool    `json:"auto_tmm"`
-	Availability      int     `json:"availability"`
+	Availability      float64 `json:"availability"`
 	Category          string  `json:"category"`
 	Completed         int64   `json:"completed"`
 	CompletionOn      int     `json:"completion_on"`
@@ -204,7 +204,7 @@ type Torrents struct {
 	NumLeechs         int     `json:"num_leechs"`
 	NumSeeds          int     `json:"num_seeds"`
 	Priority          int     `json:"priority"`
-	Progress          int     `json:"progress"`
+	Progress          float64 `json:"progress"`
 	Ratio             float64 `json:"ratio"`
 	RatioLimit        int     `json:"ratio_limit"`
 	SavePath          string  `json:"save_path"`
